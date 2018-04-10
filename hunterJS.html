@@ -1,0 +1,24 @@
+<!doctype>
+<html>
+    <head>
+        <title>HunterJS</title>
+        <script src="app.js"></script>
+        <script src="nodeTraversalService.js"></script>
+        <style>
+            canvas {
+                border: 1px solid #c0c0c0;
+            }
+            body {
+                padding: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body onload="app.start()">
+        <canvas id="canvasMain" height="700" width="980"></canvas>
+        <button onclick="app.toggleRoute()">Show/Hide Route</button>
+        <button onclick="app.toggleNodeGraph()">Show/Hide Note Graph</button>
+        <button onclick="app.toggleMode()">Toggle Subtle Mode</button>
+    </body>
+</html>
