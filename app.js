@@ -132,8 +132,8 @@ var app = {};
 
     function buildNodeGraph() {
         nodeGraph = [];
-        for (var y = 0; y < 17; y++) {
-            for (var x = 0; x < 24; x++) {
+        for (var y = 0; y < 18; y++) {
+            for (var x = 0; x < 25; x++) {
                 var px = 10 + (x * 40);
                 var py = 10 + (y * 40);
                 var dat = ctx.getImageData(px, py, 1, 1).data;
@@ -184,7 +184,7 @@ var app = {};
 
         for (var cp = 0; cp < blockMap.length; cp++) {
             ctx.fillStyle = blockColour;
-            ctx.fillRect(-5 + (blockMap[cp].x * 40), -5 + (blockMap[cp].y * 40), 30, 30);
+            ctx.fillRect(-20 + (blockMap[cp].x * 40), -20 + (blockMap[cp].y * 40), 60, 60);
         }
     }
 
