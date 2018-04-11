@@ -16,9 +16,14 @@
         </style>
     </head>
     <body onload="app.start()">
-        <canvas id="canvasMain" height="700" width="980"></canvas>
-        <button onclick="app.toggleRoute()">Show/Hide Route</button>
-        <button onclick="app.toggleNodeGraph()">Show/Hide Note Graph</button>
-        <button onclick="app.toggleMode()">Toggle Subtle Mode</button>
+        <div style="text-align: center">
+            <canvas id="canvasMain" height="700" width="980"></canvas>
+        </div>
+        <br/>
+        <div style="text-align: center">
+            <button onclick="app.toggleRoute()">Show/Hide Route</button>
+            <button onclick="app.toggleNodeGraph()">Show/Hide Note Graph</button>
+            <button onclick="app.toggleMode()">Toggle Subtle Mode</button>
+        </div>
     </body>
 </html>
