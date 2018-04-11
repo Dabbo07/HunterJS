@@ -23,7 +23,7 @@ var app = {};
 
     var nodeGraph = [];
 
-    var showGraph = true;
+    var showGraph = false;
     var showNodeGraph = false;
 
     var start = function() {
