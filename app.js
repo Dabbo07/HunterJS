@@ -15,7 +15,7 @@ var app = {};
         route: []
     };
 
-    var blockColour = "#efefef";
+    var blockColour = "#afafaf";
 
     var targetNodeId;
     var pulseSize = 1;
@@ -24,7 +24,7 @@ var app = {};
     var nodeGraph = [];
 
     var showGraph = false;
-    var showNodeGraph = false;
+    var showNodeGraph = true;
 
     var start = function() {
 
